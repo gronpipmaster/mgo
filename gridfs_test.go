@@ -27,9 +27,9 @@
 package mgo_test
 
 import (
+	"github.com/gronpipmaster/mgo"
+	"github.com/gronpipmaster/mgo/bson"
 	"io"
-	"labix.org/v2/mgo"
-	"labix.org/v2/mgo/bson"
 	. "launchpad.net/gocheck"
 	"os"
 	"time"
